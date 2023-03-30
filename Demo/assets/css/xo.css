@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+body{
+    background: rgb(215, 212, 212);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+        /* MAIN */
+.main{
+    background: rgb(113, 1, 83);
+    padding: 1%;
+    padding-left: 5%;
+}
+.main .about,.game{
+    color: white;
+}
+
+     /* GAME */
+.game{
+    width: 255px;
+    /* width: 20%; */
+    text-align: center;
+    color: white;
+    margin: 10% auto;
+    font-weight: 500;
+}
+
+.title{
+    background: rgb(113, 1, 83);
+    padding: 10px 0;
+    margin: 5px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+span{
+    color: white;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background:rgb(113, 1, 83);
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.square:hover{
+    background: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+       /* BUTTON */
+       section .btn{
+        width: 100px;
+        height: 30px;
+        background:rgb(37, 37, 37) ;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border: none;
+        margin-top:2%;
+        justify-content: center;
+    }

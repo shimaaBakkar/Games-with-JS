@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/games.css">
+    <link rel="stylesheet" href="./assets/css/temp.css">
+    <title>Games</title>
+    <style>
+        #search_sec{
+            background-color: rgb(113, 1, 83);
+            width: 30%;
+            
+           position: relative;
+            color: white;
+             font-size: 1.5rem;
+            margin: 2% 10%;
+
+        }
+        #search_item{
+            position: absolute;
+            width: 70%;
+            left: 121px;
+            height: 100%;
+            border-color: white;
+            color: rgb(113, 1, 83);
+            font-size: 1.5rem;
+            
+            
+
+        }
+        #search_item::placeholder{
+            color:rgb(113, 1, 83) ;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="per"><b><span class="zero"><a href="./home.html">Gaming</a></span><sub>to have fun</sub></b></span>
+        <ul>
+            <!-- <a id="username" href="./login.html" onload="user()">login</a> -->
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./games.html" class="active">Games</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <!-- <li><a href="./index.html">Rigester</a></li>
+            <li><a href="./login.html">Log in</a></li> -->
+        </ul>
+    </header>
+
+    <section class="main">
+        <b class="home">Home /</b><b class="about">Games</b>
+    </section>
+
+    <section class="about-our-team">
+        <h1>our creative & beautiful Games</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eos,
+            atque veniam reprehenderit recusandae <br> Repellendus eos,
+            atque veniam reprehenderit recusandae</p>
+    </section>
+
+    <section class="our-team">
+        <i class="fa-solid fa-user"></i>
+        <b>Our Games</b>
+    </section>
+
+    <section  id="search_sec">
+
+        <label >Search </label>
+          <i class="fa-solid fa-magnifying-glass">
+          </i>
+          <input type="search" id="search_item" placeholder=" Search & Have Fun" onkeyup="search()">
+    </section>
+          
+       
+   
+
+    <section class="card">
+        <div class="card-game" >
+            <h2 class="title">X O game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+
+        <div class="card-game" >
+            <h2 class="title">Memory game</h2>
+            <br>
+            <button><a href="./game.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Rock Paper Scissors game</h2>
+            <br>
+            <button><a href="./rock_paper_scissors.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Ludo game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Pong game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Sudocu game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Breakout game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+
+        <div class="card-game">
+            <h2 class="title">Frogger game</h2>
+            <br>
+            <button><a href="./xo.html">play now</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <i style="color: white;" class="fa-brands fa-instagram"></i>
+        <i style="color: white;" class="fa-brands fa-facebook-f"></i>
+        <i style="color: white;" class="fa-brands fa-linkedin"></i>
+        <i style="color: white;" class="fa-brands fa-twitter"></i>
+    </footer>
+    
+</body>
+<script src="./assets/js/searchScript.js"></script>
+<script src="./assets/js/userNam.js"></script>
+</html>

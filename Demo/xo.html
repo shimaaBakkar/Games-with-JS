@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/temp.css">
+    <link rel="stylesheet" href="./assets/css/xo.css">
+    <title>X O game</title>
+</head>
+<body>
+    <header>
+        <span class="per"><b><span class="zero"><a href="./home.html">Gaming</a></span><sub>to have fun</sub></b></span>
+        <header>
+            <span class="per"><b><span class="zero"><a href="./home.html">Gaming</a></span><sub>to have fun</sub></b></span>
+            <ul>
+                <!-- <a id="username" href="./login.html" onload="user()">login</a> -->
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./games.html" class="active">Games</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <!-- <li><a href="./index.html">Rigester</a></li>
+                <li><a href="./login.html">Log in</a></li> -->
+            </ul>
+        </header>
+    </header>
+
+    <section class="main">
+        <b class="home">Home /</b><b class="about"> Games /</b><b class="game"> Xo</b>
+    </section>
+
+    <section class="game">
+
+        <div class="title"><span>X O</span></div>
+        <div class="square" id="item1" onclick="game(this.id)"></div>
+        <div class="square" id="item2" onclick="game(this.id)"></div>
+        <div class="square" id="item3" onclick="game(this.id)"></div>
+
+        <div class="square" id="item4" onclick="game(this.id)"></div>
+        <div class="square" id="item5" onclick="game(this.id)"></div>
+        <div class="square" id="item6" onclick="game(this.id)"></div>
+
+        <div class="square" id="item7" onclick="game(this.id)"></div>
+        <div class="square" id="item8" onclick="game(this.id)"></div>
+        <div class="square" id="item9" onclick="game(this.id)"></div>
+
+        <button class="btn"><a href="./games.html">Back</a></button>
+        <button class="btn" onclick="newGame()">New Game</button>
+    </section>
+
+    <footer>
+        <i style="color: white;" class="fa-brands fa-instagram"></i>
+        <i style="color: white;" class="fa-brands fa-facebook-f"></i>
+        <i style="color: white;" class="fa-brands fa-linkedin"></i>
+        <i style="color: white;" class="fa-brands fa-twitter"></i>
+    </footer>
+    
+</body>
+<script src="./assets/js/xo.js"></script>
+<script src="./assets/js/userNam.js"></script>
+</html>

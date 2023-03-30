@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+body{
+    /* background: linear-gradient(white,black); */
+    /* height: 100vh; */
+    background: rgb(215, 212, 212);
+    /* background-color: black; */
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+     /*      content      */
+.main{
+    background: rgb(113, 1, 83);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 7%;
+    padding-left: 5%;
+    align-items: center;
+    /* text-align: center; */
+}
+section .title{
+    color: white;
+}
+section p{
+    color: white;
+}
+section .btn{
+    width: 200px;
+    height: 50px;
+    background:rgb(37, 37, 37) ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+section .img{
+    padding-left: 100px;
+    margin-left: 11%;
+}
+
+/* SECOND SECTION */
+
+section .first, .second{
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    width: 80%;
+    margin-left: 8%;
+}
+section .one{
+    background:white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+}
+section .one b,section .two b{
+    font-size: larger;
+}
+ 
+section .two {
+    background:white;
+    color: black;
+    text-align: center;
+    float: right;
+    margin-left: 2%;
+    padding: 1%;
+} 
+
+section .btn2{
+    width: 150px;
+    height: 50px;
+    background:rgb(37, 37, 37) ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin-top:2%;
+    justify-content: center;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui;
+}
+
+     /*      content      */
+.main{
+    background: rgb(113, 1, 83);
+    padding: 1%;
+    padding-left: 5%;
+}
+.main .about{
+    color: white;
+}
+
+.our-team{
+    background: rgb(229, 228, 228);
+    text-align: center;
+    padding: 2%;
+}
+.our-team h1{
+    text-transform: uppercase;
+}
+
+
+     /*       contact      */
+
+.contact{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.form .btn{
+    width: 200px;
+    height: 50px;
+    background:rgb(37, 37, 37) ;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}

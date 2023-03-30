@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/temp.css">
+    <style>
+        *{
+    
+        font-family: system-ui;
+        color: rgb(113, 1, 83);
+        }
+        body{
+            background: rgb(215, 212, 212);
+        }
+        #computer-choice{
+            color:rgb(139, 21, 108);
+        }
+        button{
+            width: 17%;
+            height: 20%;
+            font-size: 1.5rem;
+            font-weight: 1rem;
+        }
+        #result{
+            color:white;
+        }
+        .container{
+            margin: 5% 20% ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="per"><b><span class="zero"><a href="./home.html">Gaming</a></span><sub>to have fun</sub></b></span>
+        <ul>
+            <!-- <a id="username" href="./login.html" onload="user()">login</a> -->
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./games.html" class="active">Games</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <!-- <li><a href="./index.html">Rigester</a></li>
+            <li><a href="./login.html">Log in</a></li> -->
+        </ul>
+    </header>
+
+    <section class="container">
+        <h2>Compouter Choice: <span id="computer-choice"></span></h2>
+        <h2>Your Choice: <span id="user-choice"></span></h2>
+         <h2>Result: <span id="result"></span></h2>
+         <button id="rock"><i class="fa-solid fa-hand-scissors"></i>Rock</button>
+         <button id="paper"><i class="fa-solid fa-hand"></i>Paper</button>
+         <button id="scissors"><i class="fa-solid fa-hand-back-fist"></i>Scissors</button>
+         <div >
+             <h2 >user </h2>
+             <h3 id="user-counter" >0</h3>
+             <h2 >computer </h2>
+             <h3 id="computer-counter" >0</h3>
+         </div>
+         <audio src="./assets/audio/claps-44774.mp3" id="clap"></audio>
+    </section>
+
+</body>
+<script src="./assets/js/rockScript.js"></script>
+<script src="./assets/js/userNam.js"></script>
+</html>

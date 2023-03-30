@@ -1,0 +1,63 @@
+body{
+    font-family: system-ui;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+     /*      HEADER      */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 30px; */
+    background: rgb(37, 37, 37);
+    /* position: fixed; */
+    width: 100%;
+}
+
+.per{
+    color: rgb(113, 1, 83);
+}
+
+.zero{
+    font-size: xx-large;
+    color: white;
+}
+
+header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+    font-weight: bold;
+}
+header ul li a{
+    padding:  21px;
+}
+header ul li a:hover, .active{
+    background: rgb(113, 1, 83);
+}
+
+
+
+     /*      FOOTER      */
+footer{
+    background: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */  
+}
+footer i{
+    padding: 1%;
+    padding-right: 5%;
+    font-size: 30px;    
+}
